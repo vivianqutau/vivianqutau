@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border;
+}
+
+html{
+    font-size: 15px;
+    font-family: 'Century Gothic', sans-serif;
+}
+
+.button-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+#icon4 {
+    color: rgb(161, 195, 11);
+}
+
+.nav-item {
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+.nav-item:hover {
+    color: #b9b9b9;
+    box-shadow: 0px 0px 36px #FFED86;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: url("Images/img1.jpg") no-repeat;
+    background-size: cover;
+}
+
+.box {
+    width: 45%;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 10px;
+    color: white;
+    font-family: 'Century Gothic', sans-serif;
+    margin-left: 27%;
+    margin-top: 5%;
+    justify-items: center;
+}
+
+.box1 {
+    color: white;
+    font-family: 'Century Gothic', sans-serif;
+    padding: 10px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+
+input {
+    height: 45px;
+}
+
+.form1 {
+    width: 600px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+
+::placeholder {
+    color: #b9b9b9;
+    font-family: 'Century Gothic', sans-serif;
+}
+
+form #submit {
+    background: #ff5722;
+    border-color: transparent;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.box2 {
+    margin-top: 2%;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.box2 li {
+    display: inline-block;
+    margin: 6px;
+    list-style: none;
+}
+
+.box2 li a {
+    color: white;
+    text-decoration: none;
+    font-size: 60px;
+    transition: all ease-in-out 250ms;
+}
+
+.box2 li a:hover {
+    color: #b9b9b9
+}
+
+
+
+
+
