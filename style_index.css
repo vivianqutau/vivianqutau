@@ -3,110 +3,111 @@
     padding: 0;
 }
 
-/* html{
-    font-size: 15px;
-    font-family: 'Century Gothic', sans-serif;
+/* responsive for wide screen */
+@media screen and (min-width: 501px) {
+    body {
+        margin: 0;
+        padding: 0;
+        background: url("Images/vivianwallpaper.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    .button-area {
+        display: flex;
+        justify-content: center;
+        padding: 2%;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.4);
+    }
+    
+    
+    #icon1 {
+        /* color: rgb(161, 195, 11); */
+        color: #FEDE00;
+    }
+    
+    .nav-item {
+        color: white;
+        text-decoration: none;
+        padding: 5px 60px;
+        font-family: 'Century Gothic', sans-serif;
+        font-size: 20px;
+    }
+    
+    .nav-item:hover {
+        color: #b9b9b9;
+        box-shadow: 0px 0px 36px #FFED86;
+    }
+    
+    .box {
+        width: 40%;
+        background: rgba(0, 0, 0, 0.4);
+        padding: 2%;
+        text-align: center;
+        margin: auto;
+        margin-top: 2%;
+        color: white;
+        font-family: 'Century Gothic', sans-serif;
+    }
+    
+    .box-img {
+        border-radius: 50%;
+        height: 180px;
+        width: 180px;
+        margin-top: .5%;
+    }
+    
+    .box h1 {
+        font-size: 40px;
+        letter-spacing: 4px;
+        font-weight: 100;
+        padding: 10px;
+    }
+    
+    .box h2 {
+        font-size: 20px;
+        letter-spacing: 3px;
+        font-weight: 100;
+    }
+    
+    .box p {
+        text-align: justify;
+        padding: 10px;
+        letter-spacing: 1.5px;
+    }
+    
+    ul {
+        margin: 0;
+        padding: 5px;
+    }
+    
+    .box li {
+        display: inline-block;
+        margin: 6px;
+        list-style: none;
+    }
+    
+    .box li a {
+        color: white;
+        text-decoration: none;
+        font-size: 60px;
+        transition: all ease-in-out 250ms;
+    }
+    
+    .box li a:hover {
+        color: #7a7878
+    }
 }
 
-body {
-    margin: 0;
-    padding: 0;
-    background: url("Images/img1.jpg");
-    background-size: 100%;
-}
-
-
-.button-area {
-    display: flex;
-    justify-content: center;
-    padding: 8%;
-    width: 100%;
-    background: rgba(0, 0, 0, 0.4);
-}
-
-
-#icon1 {
-    color: rgb(161, 195, 11);
-}
-
-.nav-item {
-    color: white;
-    text-decoration: none;
-    padding: 5px 20px;
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-}
-
-.nav-item:hover {
-    color: #b9b9b9;
-    box-shadow: 0px 0px 36px #FFED86;
-}
-
-.box {
-    width: 40%;
-    background: rgba(0, 0, 0, 0.4);
-    padding: 2%;
-    text-align: center;
-    margin: auto;
-    margin-top: 5%;
-    color: white;
-    font-family: 'Century Gothic', sans-serif;
-}
-
-.box-img {
-    border-radius: 50%;
-    height: 200px;
-    width: 200px;
-    margin-top: 1%;
-}
-
-.box h1 {
-    font-size: 40px;
-    letter-spacing: 4px;
-    font-weight: 100;
-    padding: 10px;
-}
-
-.box h2 {
-    font-size: 20px;
-    letter-spacing: 3px;
-    font-weight: 100;
-}
-
-.box p {
-    text-align: justify;
-    padding: 10px;
-    letter-spacing: 1.5px;
-}
-
-ul {
-    margin: 0;
-    padding: 5px;
-}
-
-.box li {
-    display: inline-block;
-    margin: 6px;
-    list-style: none;
-}
-
-.box li a {
-    color: white;
-    text-decoration: none;
-    font-size: 60px;
-    transition: all ease-in-out 250ms;
-}
-
-.box li a:hover {
-    color: #b9b9b9
-} */
-
-/* responsive */
+/* responsive for phone and tablet */
 @media screen and (max-width: 500px) {
     body {
         /* background-color: #D8A7B1; */
-        background-color: #B68D40;
-        background-image: none;
+        /* background-color: #B68D40; */
+        /* background-image: none; */
+        background-image: url("Images/vivianwallpaperphone.jpg");
+        background-size: cover;
         display: flex;
         flex-direction: column;
         align-items: center;
