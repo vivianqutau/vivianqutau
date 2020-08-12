@@ -122,7 +122,7 @@ footer li a:hover {
     color: #b9b9b9
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 320px) {
     body {
         background-color: #D8A7B1;
         background-image: none;
