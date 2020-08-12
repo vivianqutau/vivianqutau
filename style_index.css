@@ -107,7 +107,8 @@
         /* background-color: #B68D40; */
         /* background-image: none; */
         background-image: url("Images/vivianwallpaperphone.jpg");
-        background-size: cover;
+        background-repeat: no-repeat;
+        background-size: 100% 150%;
         display: flex;
         flex-direction: column;
         align-items: center;
