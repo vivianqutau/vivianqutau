@@ -106,7 +106,7 @@
         /* background-color: #D8A7B1; */
         /* background-color: #B68D40; */
         /* background-image: none; */
-        background-image: url("Images/vivianwallpaperphone.jpg");
+        background-image: url("Images/vivianphoneindex.jpg");
         background-repeat: no-repeat;
         background-size: 100% 150%;
         display: flex;
@@ -120,7 +120,7 @@
         padding: 4%;
         display: flex;
         justify-content: space-around;
-        font-size: small
+        font-size: medium
     }
     
     .nav-item {
