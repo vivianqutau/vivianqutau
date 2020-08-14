@@ -18,12 +18,10 @@
         justify-content: center;
         padding: 2%;
         width: 100%;
-        background: rgba(0, 0, 0, 0.4);
+        background: rgba(0, 0, 0, 0.5);
     }
     
-    
     #icon1 {
-        /* color: rgb(161, 195, 11); */
         color: #FEDE00;
     }
     
@@ -42,7 +40,7 @@
     
     .box {
         width: 40%;
-        background: rgba(0, 0, 0, 0.4);
+        background: rgba(0, 0, 0, 0.5);
         padding: 2%;
         text-align: center;
         margin: auto;
@@ -103,9 +101,6 @@
 /* responsive for phone and tablet */
 @media screen and (max-width: 500px) {
     body {
-        /* background-color: #D8A7B1; */
-        /* background-color: #B68D40; */
-        /* background-image: none; */
         background-image: url("Images/vivianphoneindex.jpg");
         background-repeat: no-repeat;
         background-size: 100% 150%;
@@ -130,7 +125,6 @@
     }
 
     #icon1 {
-        /* color: rgb(161, 195, 11); */
         color: #FEDE00;
     }
 

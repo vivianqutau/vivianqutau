@@ -1,121 +1,122 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border;
 }
+/* responsive for wide screen */
+@media screen and (min-width: 501px) {
+    body {
+        margin: 0;
+        padding: 0;
+        background: url("Images/vivianWideScreenExperience.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    .button-area {
+        display: flex;
+        justify-content: center;
+        padding: 2%;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.4);
+    }
+    
+    #icon2 {
+        /* color: rgb(161, 195, 11); */
+        color: #FEDE00;
+    }
+    
+    .nav-item {
+        color: white;
+        text-decoration: none;
+        padding: 5px 60px;
+        font-family: 'Century Gothic', sans-serif;
+        font-size: 20px;
+    }
+    .nav-item:hover {
+        color: #b9b9b9;
+        box-shadow: 0px 0px 36px #FFED86;
+    }
+    
+    body .body-box {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .box {
+        width: 30%;
+        background: rgba(0, 0, 0, 0.4);
+        padding: 10px;
+        margin-top: 1%;
+        color: white;
+        font-family: 'Century Gothic', sans-serif;
+    }
+    
+    h1 {
+        font-size: 40px;
+        letter-spacing: 4px;
+        font-weight: 100;
+        padding: 5px;
+        text-align: center;
+    }
+    
+    h2 {
+        font-size: 20px;
+        letter-spacing: 3px;
+        font-weight:bold;
+        padding: 5px;
+    }
+    
+    h3 {
+        font-size: 18px;
+        letter-spacing: 1.5px;
+        font-weight: 300;
+        padding: 5px;
+    }
 
-/* .button-area {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 30px;
-    width: 100%;
-    background: rgba(0, 0, 0, 0.4);
+    h3 ul {
+        list-style: none;
+    }
+    
+    h4 {
+        font-size: 12px;
+        letter-spacing: 1.5px;
+        font-weight: 100;
+        color: silver;
+        padding: 5px;
+    }
+    
+    .box1 {
+        margin-top: 20px;
+        margin-left: 4%;
+    }
+    .box1:hover {
+        color: #b9b9b9;
+        box-shadow: 0px 0px 36px #FFED86;
+    }
+    footer {
+        margin-top: 2%;
+        padding: 5px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    footer li {
+        display: inline-block;
+        margin: 6px;
+        list-style: none;
+    }
+    
+    footer li a {
+        color: white;
+        text-decoration: none;
+        font-size: 60px;
+        transition: all ease-in-out 250ms;
+    }
+    
+    footer li a:hover {
+        color: #b9b9b9
+    }
 }
-
-#icon2 {
-    color: rgb(161, 195, 11);
-}
-
-.nav-item {
-    color: white;
-    text-decoration: none;
-    padding: 5px 20px;
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-}
-
-.nav-item:hover {
-    color: #b9b9b9;
-    box-shadow: 0px 0px 36px #FFED86;
-}
-
-body {
-    margin: 0;
-    padding: 0;
-    background: url("Images/img1.jpg") no-repeat;
-    background-size: cover;
-}
-
-body .body-box {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-
-.box {
-    width: 45%;
-    background: rgba(0, 0, 0, 0.4);
-    padding: 10px;
-    margin-top: 1%;
-    color: white;
-    font-family: 'Century Gothic', sans-serif;
-
-}
-
-h1 {
-    font-size: 40px;
-    letter-spacing: 4px;
-    font-weight: 100;
-    padding: 5px;
-    text-align: center;
-}
-
-h2 {
-    font-size: 20px;
-    letter-spacing: 3px;
-    font-weight:bold;
-    padding: 5px;
-}
-
-h3 {
-    font-size: 18px;
-    letter-spacing: 1.5px;
-    font-weight: 300;
-    padding: 5px;
-}
-
-h4 {
-    font-size: 12px;
-    letter-spacing: 1.5px;
-    font-weight: 100;
-    color: silver;
-    padding: 5px;
-}
-
-.box1 {
-    margin-top: 20px;
-    margin-left: 4%;
-}
-
-.box1:hover {
-    color: #b9b9b9;
-    box-shadow: 0px 0px 36px #FFED86;
-}
-
-footer {
-    margin-top: 2%;
-    padding: 5px;
-    display: flex;
-    justify-content: center;
-}
-
-footer li {
-    display: inline-block;
-    margin: 6px;
-    list-style: none;
-}
-
-footer li a {
-    color: white;
-    text-decoration: none;
-    font-size: 60px;
-    transition: all ease-in-out 250ms;
-}
-
-footer li a:hover {
-    color: #b9b9b9
-} */
 
 /* responsive for phone and device */
 @media screen and (max-width: 500px) {
