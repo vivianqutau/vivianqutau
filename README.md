@@ -1,7 +1,7 @@
-# Vivian's Portfolio Website
+# Vivian's Personal Portfolio Website
 
-#### This is an HTML/CSS project that I have done as part of SheCodes coding bootcamp in 2019
+#### This is an HTML/CSS project for my personal portfolio
 
-#### To access the website, please follow this link https://vivianintech.github.io/vivianqutau/
+#### The website is in development phase. The link to the website will be added after the page is done
 
 #### Maintainer: Vivian Nguyen
